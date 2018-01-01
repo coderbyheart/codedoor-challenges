@@ -5,6 +5,7 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Build Status](https://travis-ci.org/coderbyheart/codedoor-challenges.svg?branch=master)](https://travis-ci.org/coderbyheart/codedoor-challenges)
 [![Greenkeeper badge](https://badges.greenkeeper.io/coderbyheart/codedoor-challenges.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/coderbyheart/codedoor-challenges/badge.svg)](https://snyk.io/test/github/coderbyheart/codedoor-challenges)
 
 ## How to get started with the challenges
 
@@ -35,4 +36,6 @@ I also show some common project defaults when writing JavaScript code (like lint
 
  - [standard](https://www.npmjs.com/package/standard) defines how the source code should be formatted. Use `npm run lint -- --fix` to automatically fix your source code formatting.
  - [commitlint](http://marionebl.github.io/commitlint/) enforces a certain (parseable) format of commit messages.
-
+ - [greenkeeper](https://greenkeeper.io/) watches the dependencies and creates pull request if these are updated
+ - [Travis CI](https://travis-ci.org/) builds the project after every commit (in a real project, it would run the tests also)
+ - [Snyk](https://snyk.io/) monitors the source code for security issues
