@@ -7,6 +7,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/coderbyheart/codedoor-challenges.svg)](https://greenkeeper.io/)
 [![Known Vulnerabilities](https://snyk.io/test/github/coderbyheart/codedoor-challenges/badge.svg)](https://snyk.io/test/github/coderbyheart/codedoor-challenges)
 [![DeepScan Grade](https://deepscan.io/api/projects/1628/branches/5737/badge/grade.svg)](https://deepscan.io/dashboard/#view=project&pid=1628&bid=5737)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b4b959174f105746f01e/maintainability)](https://codeclimate.com/github/coderbyheart/codedoor-challenges/maintainability)
 
 ## How to get started with the challenges
 
@@ -40,5 +41,5 @@ I also show some common project defaults when writing JavaScript code (like lint
  - [greenkeeper](https://greenkeeper.io/) watches the dependencies and creates pull request if these are updated
  - [Travis CI](https://travis-ci.org/) builds the project after every commit (in a real project, it would run the tests also)
  - [Snyk](https://snyk.io/) monitors the source code for security issues
- - [DeepScan](https://deepscan.io/) checks the code-quality
+ - [DeepScan](https://deepscan.io/) and [CodeClimate](https://codeclimate.com/) check the code-quality
  - [.editorconfig](http://editorconfig.org/) configures the file formatting setting (indentation, line-endings) for all popular IDEs
