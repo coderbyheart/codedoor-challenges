@@ -1,6 +1,6 @@
 /* globals describe test expect */
 
-const {patternConverter} = require('../../src/01/pattern-converter')
+const { patternConverter } = require('../../src/01/pattern-converter')
 
 describe('pattern converter', () => {
   describe('converts a 64 character string to a list of 8 bytes', () => {
